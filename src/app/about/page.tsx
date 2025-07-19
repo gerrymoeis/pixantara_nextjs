@@ -1,4 +1,10 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: 'About Pixantara',
+  description: 'Learn about the mission and vision of the Pixantara game development competition. Discover who can join and what the challenge entails.',
+};
 
 const AboutPage = () => {
   return (
@@ -15,14 +21,14 @@ const AboutPage = () => {
           </div>
           <div className="md:col-span-10">
             <h3 className="font-press-start text-xl mb-3 text-white">OUR MISSION</h3>
-            <p className="text-xl">To be the launchpad for Indonesia's next generation of game developers, celebrating our rich cultural heritage through the universal language of pixels and play.</p>
+            <p className="text-xl">To be the launchpad for Indonesia&apos;s next generation of game developers, celebrating our rich cultural heritage through the universal language of pixels and play.</p>
           </div>
         </div>
 
         <div className="temple-panel p-8 border-2 grid md:grid-cols-12 gap-6 items-center">
           <div className="md:col-span-10">
-            <h3 className="font-press-start text-xl mb-3 text-white">THE "PIXEL NUSANTARA" SAGA</h3>
-            <p className="text-xl">This is more than a theme; it's a challenge. We call upon you to weave the myths, landscapes, and spirit of Nusantara into the fabric of retro gaming. Combine 8-bit nostalgia with the soul of our archipelago.</p>
+            <h3 className="font-press-start text-xl mb-3 text-white">THE &quot;PIXEL NUSANTARA&quot; SAGA</h3>
+            <p className="text-xl">This is more than a theme; it&apos;s a challenge. We call upon you to weave the myths, landscapes, and spirit of Nusantara into the fabric of retro gaming. Combine 8-bit nostalgia with the soul of our archipelago.</p>
           </div>
           <div className="md:col-span-2 text-center">
             <svg className="w-16 h-16 mx-auto text-[#16a34a]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>

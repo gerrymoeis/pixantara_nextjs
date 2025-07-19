@@ -1,5 +1,11 @@
+import type { Metadata } from 'next';
 import Timeline from '../../components/Timeline';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: 'Competition Timeline',
+  description: 'Follow the complete timeline of the Pixantara competition, from registration and team formation to the final judging and winner announcement.',
+};
 
 const TimelinePage = () => {
   return (

@@ -66,7 +66,7 @@ const LoginPage = () => {
                 </div>
 
                 <p ref={el => { formGroupsRef.current[6] = el; }} className="form-group text-center mt-8 text-xl">
-                    Don't have an account? <Link href="/register" className="text-brand-lime hover:underline">Register here</Link>
+                    Don&apos;t have an account? <Link href="/register" className="text-brand-lime hover:underline">Register here</Link>
                 </p>
             </div>
         </div>

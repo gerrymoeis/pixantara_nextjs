@@ -1,4 +1,10 @@
+import type { Metadata } from 'next';
 import FaqAccordion from '../../components/FaqAccordion';
+
+export const metadata: Metadata = {
+  title: 'FAQ',
+  description: 'Find answers to frequently asked questions about the Pixantara competition, including registration, rules, and submission details.',
+};
 
 const FaqPage = () => {
   return (

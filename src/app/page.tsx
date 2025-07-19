@@ -8,7 +8,7 @@ export default function Home() {
         <div className="lg:col-span-2 temple-panel p-6 border-2">
           <h3 className="font-press-start text-xl mb-4 text-white">ABOUT PIXANTARA</h3>
           <p className="text-xl mb-4">A game development competition focused on creating games that celebrate Indonesian culture, heritage, and values through pixel art and retro gaming aesthetics.</p>
-          <p className="text-xl">The theme, <span className="text-white font-bold">"Pixel Nusantara,"</span> challenges developers to combine the nostalgia of 8-bit gaming with the rich, diverse identity of the Indonesian archipelago.</p>
+          <p className="text-xl">The theme, <span className="text-white font-bold">&quot;Pixel Nusantara,&quot;</span> challenges developers to combine the nostalgia of 8-bit gaming with the rich, diverse identity of the Indonesian archipelago.</p>
         </div>
         <div className="lg:col-span-1 temple-panel p-6 border-2">
           <h3 className="font-press-start text-xl mb-4 text-white">WHY JOIN?</h3>
