@@ -1,0 +1,27 @@
+{
+  "name": "Pixantara - Forge Legends, Code Realities",
+  "short_name": "Pixantara",
+  "description": "A game development competition focused on creating games that celebrate Indonesian culture, heritage, and values through pixel art and retro gaming aesthetics.",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#1a044e",
+  "background_color": "#1a044e",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}

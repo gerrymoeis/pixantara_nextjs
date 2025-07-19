@@ -21,6 +21,8 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  manifest: '/manifest.json',
+  themeColor: '#1a044e',
   title: {
     default: 'Pixantara - Forge Legends, Code Realities',
     template: `%s | Pixantara`,
@@ -50,7 +52,7 @@ export const metadata: Metadata = {
     siteName: 'Pixantara',
     images: [
       {
-        url: `/og-image.png`, // Must be an absolute URL
+        url: `/og-image.png`,
         width: 1200,
         height: 630,
         alt: 'Pixantara Competition Banner',
@@ -63,7 +65,11 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Pixantara - Forge Legends, Code Realities',
     description: 'Join the ultimate game development competition celebrating Indonesian culture through retro gaming.',
-    images: [`/og-image.png`], // Must be an absolute URL
+    images: [`/og-image.png`],
+  },
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/icons/icon-192x192.png',
   },
 };
 
@@ -83,6 +89,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-B0010N2H9C');
+          `}
+        </Script>
+        <Script type="application/ld+json" id="structured-data">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Pixantara",
+              "url": "${siteUrl}",
+              "logo": "${siteUrl}/og-image.png",
+              "description": "A game development competition focused on creating games that celebrate Indonesian culture, heritage, and values through pixel art and retro gaming aesthetics."
+            }
           `}
         </Script>
       </body>
