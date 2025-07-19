@@ -1,6 +1,6 @@
 # Pixantara - Forge Legends, Code Realities
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fgerry-mandur%2Fpixantara-nextjs)
+![Vercel Deploy](https://pixantara.vercel.app/)
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
