@@ -1,6 +1,6 @@
 # Pixantara - Forge Legends, Code Realities
 
-![Vercel Deploy](https://pixantara.vercel.app/)
+![Vercel Deploy](https://deploy-badge.vercel.app/vercel/pixantara?style=flat-square)
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
